@@ -1,0 +1,7 @@
+Hello.
+{$= i @func 0.55 $}
+
+{$ for var 3 kjhkj__ $}
+	Text inside for loop.
+	{$= @fu__8nc  1.33 "abb" $}
+{$ end $}

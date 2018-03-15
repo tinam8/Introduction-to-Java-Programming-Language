@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hr.fer.android.hw1191226486.homework.MainActivity"
+    android:orientation="vertical">
+
+   <Button
+       android:id="@+id/matematika"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/matematika"/>
+
+    <Button
+        android:id="@+id/statistika"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/statistika"/>
+
+</LinearLayout>

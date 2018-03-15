@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="hr.fer.android.hw1191226486.homework.CalculusActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height"
+        android:text="@string/odaberi_operaciju"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton android:id="@+id/sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sum"
+            android:checked="true"/>
+        <RadioButton android:id="@+id/min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/min"/>
+        <RadioButton android:id="@+id/mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mul"/>
+        <RadioButton android:id="@+id/div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/div"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/firstInput"
+        android:layout_width="@dimen/editWidth"
+        android:layout_height="@dimen/height"
+        android:hint="@string/unesi_prvi_broj"
+        android:textSize="@dimen/textSize" />
+
+    <EditText
+        android:id="@+id/secondInput"
+        android:layout_width="@dimen/editWidth"
+        android:layout_height="@dimen/height"
+        android:hint="@string/unesi_drugi_broj"
+        android:textSize="@dimen/textSize" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/height"
+        android:layout_margin="@dimen/buttonMargin"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/izracunaj"
+        android:textColor="@color/textColor"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

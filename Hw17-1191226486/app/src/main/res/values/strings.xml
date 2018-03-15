@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HomeWork</string>
+    <string name="matematika">Matematika</string>
+    <string name="statistika">statistika</string>
+    <string name="sum">+</string>
+    <string name="min">-</string>
+    <string name="mul">*</string>
+    <string name="div">/</string>
+    <string name="odaberi_operaciju">Odaberi operaciju</string>
+    <string name="unesi_prvi_broj">Unesi prvi broj</string>
+    <string name="unesi_drugi_broj">Unesi drugi broj</string>
+    <string name="izracunaj">Izracunaj</string>
+    <string name="ok">OK</string>
+    <string name="posalji_izvjestaj">Posalji izvjestaj</string>
+    <string name="unestite_relativnu_putanju">Unestite relativnu putanju</string>
+    <string name="ucitaj">Ucitaj</string>
+</resources>

@@ -1,0 +1,7 @@
+{$= i @func * 0.55  "Name \"Name\" end "$}
+Text. \{$= i $} \\  \t
+Bla bla
+
+{$ for var 3 5 var $}
+	Text inside for loop.
+{$ end $}
